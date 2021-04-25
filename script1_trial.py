@@ -26,7 +26,7 @@ def getFiles ():
     else:
         print('Invalid file type')
     
-browsebtn_Files = tk.Button(text='Import Files', command=getFiles, bg='green'
+browsebtn_Files = tk.Button(text='Import Files', command=getFiles, bg='green' ///////
                                , fg='black', 
                                font=('helvetica', 12, 'bold'))
 browsebtn_Files.pack()
